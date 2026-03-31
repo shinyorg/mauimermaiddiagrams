@@ -1,0 +1,9 @@
+<Project>
+    <PropertyGroup>
+        <BaseTargetFramework>net10.0</BaseTargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>preview</LangVersion>
+        <ValidateXcodeVersion>false</ValidateXcodeVersion>
+    </PropertyGroup>
+</Project>

@@ -1,0 +1,12 @@
+<Solution>
+    <Folder Name="/Solution/">
+        <File Path="Directory.Build.props" />
+        <File Path="Directory.Packages.props" />
+        <File Path="global.json" />
+        <File Path="nuget.config" />
+        <File Path="version.json" />
+    </Folder>
+    <Project Path="src/Shiny.Maui.Diagrams/Shiny.Maui.Diagrams.csproj" />
+    <Project Path="tests/Shiny.Maui.Diagrams.Tests/Shiny.Maui.Diagrams.Tests.csproj" />
+    <Project Path="Sample/Sample.csproj" />
+</Solution>
