@@ -1,0 +1,14 @@
+{
+  "name": "shiny-plugins",
+  "owner": {
+    "name": "Shiny",
+    "email": "hello@shinylib.net"
+  },
+  "plugins": [
+    {
+      "name": "shiny-maui-mermaid-diagrams",
+      "source": "./",
+      "description": "Claude Code plugin for Shiny MAUI Diagrams - Mermaid diagram rendering components for .NET MAUI"
+    }
+  ]
+}

@@ -53,13 +53,13 @@ Render Mermaid JS flowchart diagrams natively in .NET MAUI using pure MAUI Graph
 Add a project reference or NuGet package:
 
 ```xml
-<ProjectReference Include="path/to/Shiny.Maui.Diagrams.csproj" />
+<ProjectReference Include="path/to/Shiny.Maui.MermaidDiagrams.csproj" />
 ```
 
 ### 2. Configure MauiProgram.cs
 
 ```csharp
-using Shiny.Maui.Diagrams.Extensions;
+using Shiny.Maui.MermaidDiagrams.Extensions;
 
 builder.UseShinyDiagrams();
 ```
@@ -267,8 +267,8 @@ public class MyCustomTheme : DiagramTheme
 You can use the parser and layout engine independently of the control:
 
 ```csharp
-using Shiny.Maui.Diagrams.Parsing;
-using Shiny.Maui.Diagrams.Layout;
+using Shiny.Maui.MermaidDiagrams.Parsing;
+using Shiny.Maui.MermaidDiagrams.Layout;
 
 // Parse mermaid text to a model
 var model = MermaidParser.Parse("graph TD; A-->B; B-->C;");

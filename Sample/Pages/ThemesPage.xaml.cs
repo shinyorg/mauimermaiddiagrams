@@ -1,4 +1,4 @@
-using Shiny.Maui.Diagrams.Theming;
+using Shiny.Maui.MermaidDiagrams.Theming;
 
 namespace Sample.Pages;
 

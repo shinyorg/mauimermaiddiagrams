@@ -1,0 +1,16 @@
+<Solution>
+    <Folder Name="/Solution/">
+        <File Path=".github\workflows\build.yml" />
+        <File Path=".github\workflows\sync-skills.yml" />
+        <File Path="Directory.Build.props" />
+        <File Path="Directory.Packages.props" />
+        <File Path="global.json" />
+        <File Path="nuget.config" />
+        <File Path="skills\shiny-maui-mermaid-diagrams\SKILL.md" />
+        <File Path="src\Directory.build.targets" />
+        <File Path="version.json" />
+    </Folder>
+    <Project Path="src\Shiny.Maui.MermaidDiagrams\Shiny.Maui.MermaidDiagrams.csproj" />
+    <Project Path="tests/Shiny.Maui.MermaidDiagrams.Tests/Shiny.Maui.MermaidDiagrams.Tests.csproj" />
+    <Project Path="Sample/Sample.csproj" />
+</Solution>
