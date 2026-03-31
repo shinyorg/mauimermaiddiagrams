@@ -2,7 +2,7 @@
   "solution": {
     "path": "Shiny.Maui.MermaidDiagrams.slnx",
     "projects": [
-      "src/Shiny.Maui.MermaidDiagrams/Shiny.Maui.MermaidDiagrams.csproj"
+      "src\\Shiny.Maui.MermaidDiagrams\\Shiny.Maui.MermaidDiagrams.csproj"
     ]
   }
 }
