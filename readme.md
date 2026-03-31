@@ -2,6 +2,12 @@
 
 Render Mermaid JS flowchart diagrams natively in .NET MAUI using pure MAUI Graphics (IDrawable/ICanvas). No WebView, no SkiaSharp, no reflection — fully AOT-compliant.
 
+## Screenshots
+
+| Flowchart | Editor | Themes | Subgraphs |
+|:---------:|:------:|:------:|:---------:|
+| <img src="s1.png" width="200"/> | <img src="s2.png" width="200"/> | <img src="s3.png" width="200"/> | <img src="s4.png" width="200"/> |
+
 ---
 
 ## Features
