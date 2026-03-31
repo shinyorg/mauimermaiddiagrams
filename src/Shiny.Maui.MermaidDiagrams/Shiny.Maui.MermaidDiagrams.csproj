@@ -4,7 +4,6 @@
         <TargetFrameworks>$(BaseTargetFramework)</TargetFrameworks>
         <UseMaui>true</UseMaui>
         <IsAotCompatible>true</IsAotCompatible>
-        <RootNamespace>Shiny.Maui.Diagrams</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

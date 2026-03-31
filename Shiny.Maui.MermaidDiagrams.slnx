@@ -7,7 +7,6 @@
         <File Path="global.json" />
         <File Path="nuget.config" />
         <File Path="skills\shiny-maui-mermaid-diagrams\SKILL.md" />
-        <File Path="src\Directory.build.targets" />
         <File Path="version.json" />
     </Folder>
     <Project Path="src\Shiny.Maui.MermaidDiagrams\Shiny.Maui.MermaidDiagrams.csproj" />
