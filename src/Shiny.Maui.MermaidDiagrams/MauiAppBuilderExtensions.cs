@@ -1,4 +1,4 @@
-namespace Shiny.Maui.MermaidDiagrams.Extensions;
+namespace Shiny;
 
 public static class MauiAppBuilderExtensions
 {

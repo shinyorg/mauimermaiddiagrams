@@ -1,4 +1,5 @@
-using Shiny.Maui.MermaidDiagrams.Extensions;
+
+using Shiny;
 
 namespace Sample;
 
