@@ -11,7 +11,6 @@ triggers:
   - MermaidDiagramControl
   - DiagramText
   - DiagramTheme
-  - UseShinyDiagrams
   - Shiny.Maui.MermaidDiagrams
   - MermaidParser
   - SugiyamaLayoutEngine
@@ -62,37 +61,19 @@ Shiny MAUI Diagrams provides:
 
 ## Setup
 
-### 1. Add Project Reference
+### 1. Install the NuGet Package
 
-```xml
-<ProjectReference Include="path/to/Shiny.Maui.MermaidDiagrams.csproj" />
+```bash
+dotnet add package Shiny.Maui.MermaidDiagrams
 ```
 
-### 2. Configure in MauiProgram.cs
-
-```csharp
-using Shiny.Maui.MermaidDiagrams.Extensions;
-
-public static MauiApp CreateMauiApp()
-{
-    var builder = MauiApp.CreateBuilder();
-    builder
-        .UseMauiApp<App>()
-        .UseShinyDiagrams()
-        .ConfigureFonts(fonts =>
-        {
-            fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-        });
-
-    return builder.Build();
-}
-```
-
-### 3. Add XAML Namespace
+### 2. Add XAML Namespace
 
 ```xml
 xmlns:diagram="http://shiny.net/maui/diagrams"
 ```
+
+No builder configuration is required — simply install the package, add the XAML namespace, and use the control.
 
 ## Code Generation Instructions
 

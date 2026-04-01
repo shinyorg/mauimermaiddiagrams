@@ -343,33 +343,6 @@ public class {Name}Theme : DiagramTheme
 }
 ```
 
-## MauiProgram.cs Setup Template
-
-```csharp
-// MauiProgram.cs
-using Shiny.Maui.MermaidDiagrams.Extensions;
-
-namespace {Namespace};
-
-public static class MauiProgram
-{
-    public static MauiApp CreateMauiApp()
-    {
-        var builder = MauiApp.CreateBuilder();
-        builder
-            .UseMauiApp<App>()
-            .UseShinyDiagrams()
-            .ConfigureFonts(fonts =>
-            {
-                fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-            });
-
-        return builder.Build();
-    }
-}
-```
-
 ## Common Mermaid Flowchart Patterns
 
 ### Decision Flow

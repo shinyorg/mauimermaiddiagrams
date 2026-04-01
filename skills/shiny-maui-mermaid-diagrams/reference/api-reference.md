@@ -12,7 +12,6 @@ All public types are available under this XAML namespace.
 
 ```csharp
 using Shiny.Maui.MermaidDiagrams.Controls;    // MermaidDiagramControl
-using Shiny.Maui.MermaidDiagrams.Extensions;  // UseShinyDiagrams
 using Shiny.Maui.MermaidDiagrams.Models;      // DiagramModel, DiagramNode, DiagramEdge, etc.
 using Shiny.Maui.MermaidDiagrams.Parsing;     // MermaidParser, MermaidLexer
 using Shiny.Maui.MermaidDiagrams.Layout;      // ILayoutEngine, SugiyamaLayoutEngine, DiagramLayoutOptions
@@ -62,18 +61,6 @@ public partial class MermaidDiagramControl : ContentView
 - Invalid Mermaid text sets `ParseError` and clears the diagram
 - Setting `Theme` or `LayoutOptions` re-renders the diagram
 - Pan and pinch-to-zoom gestures are built in
-
-## MauiAppBuilderExtensions
-
-```csharp
-namespace Shiny.Maui.MermaidDiagrams.Extensions;
-
-public static class MauiAppBuilderExtensions
-{
-    // Registers Shiny MAUI Diagrams with the MAUI app builder
-    public static MauiAppBuilder UseShinyDiagrams(this MauiAppBuilder builder);
-}
-```
 
 ## MermaidParser
 
@@ -438,7 +425,7 @@ public sealed class SubgraphRenderStyle
 ### Diagram not rendering
 - Verify `DiagramText` is valid Mermaid flowchart syntax
 - Check `ParseError` property for error details
-- Ensure `UseShinyDiagrams()` is called in MauiProgram.cs
+- Ensure the NuGet package `Shiny.Maui.MermaidDiagrams` is installed
 
 ### Text must start with "graph" or "flowchart"
 - Mermaid text must begin with `graph` or `flowchart` keyword

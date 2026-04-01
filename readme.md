@@ -56,27 +56,19 @@ Render Mermaid JS flowchart diagrams natively in .NET MAUI using pure MAUI Graph
 
 ### 1. Install
 
-Add a project reference or NuGet package:
+Add the NuGet package:
 
-```xml
-<ProjectReference Include="path/to/Shiny.Maui.MermaidDiagrams.csproj" />
+```bash
+dotnet add package Shiny.Maui.MermaidDiagrams
 ```
 
-### 2. Configure MauiProgram.cs
-
-```csharp
-using Shiny.Maui.MermaidDiagrams.Extensions;
-
-builder.UseShinyDiagrams();
-```
-
-### 3. Add XAML Namespace
+### 2. Add XAML Namespace
 
 ```xml
 xmlns:diagram="http://shiny.net/maui/diagrams"
 ```
 
-### 4. Use the Control
+### 3. Use the Control
 
 ```xml
 <diagram:MermaidDiagramControl
